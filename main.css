@@ -1,0 +1,553 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    text-decoration: none;
+    list-style: none;;
+}
+
+/* first top header */
+.top-header {
+    border-bottom: 1px solid #d8d8d8;
+    text-align: right;
+    padding: 6px;
+}
+
+.top-header button {
+    display: inline-block;
+    padding: 0px 10px;
+    cursor: pointer;
+    background: 0;
+    border: 0;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+.top-header button:first-child {
+    border-right: 1px solid #d8d8d8;
+}
+
+.top-header img {
+    width: 40px;
+    vertical-align: middle;
+}
+
+.top-header span {
+    margin-left: -10px;
+    font-size: 12px;
+    color: dimgray;
+}
+
+.top-header-center {
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
+/* second top header */
+.second-header {
+    border-bottom: 1px solid #d8d8d8;
+}
+
+.second-header ul,
+.second-header li {
+    display: inline-block;
+    padding: 0px 20px;
+
+}
+
+.second-header ul {
+    height: 40px;
+}
+
+.second-header li {
+    height: 100%;
+}
+
+.second-header li span {
+    margin-right: 5px;
+}
+
+.second-header > div {
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
+.second-header ul .active {
+    border-bottom: 3px solid #002c5f;
+}
+
+.logo {
+    width: 150px;
+    vertical-align: middle;
+}
+
+.second-header-center {
+    display: inline-block;
+    padding-top: 15px;
+    width: 60%;
+}
+
+.second-header-center a {
+    color: dimgray;
+}
+
+
+.second-header-right {
+    display: inline-block;
+    text-align: right;
+    padding-top: 15px;
+    width: 39%;
+}
+
+.second-header-right a {
+    color: #0A2C5A;
+}
+
+.percent-icon img {
+    width: 12px;
+}
+
+/* third header */
+.third-header {
+    background-color: white;   
+    border-bottom: 1px solid #d8d8d8;
+}
+
+.third-header-cancel-btn {
+    display: block;
+    border: 0;
+    margin-top: 20px;
+    width: 20px;
+    float: right;
+    cursor: pointer;
+}
+
+.third-header a:link,
+.third-header a:visited {
+    color: dimgray;
+}
+
+.third-header a:hover {
+    color: #002c5f;
+}
+
+.vehicles-image {
+    width: 210px;
+}
+
+/* third header - first (vehicles) */
+#menu-vehicles {
+    display: none;
+}
+
+.section-vehicles {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    border-bottom: 1px solid #d8d8d8;
+}
+
+.section-vehicles > div {
+    display: inline-block;
+    padding: 40px 0px;
+}
+
+.section-vehicles > div > a > span {
+    display: block;
+    margin-top: 20px;
+    font-size: 17px;
+}
+
+.arrow-up {
+    width: 9px;
+}
+
+.arrow-down {
+    width: 9px;
+    display: none;
+}
+
+.arrow-right {
+    width: 9px;
+}
+
+.section-vehicles > div:last-child {
+    position: relative;
+    width: 141px;
+    margin-left: 40px;
+}
+
+.section-vehicles > div:last-child span {
+    position: absolute;
+    top: 10%;
+    transform: translateY(-50%);
+    color: #002c5f;
+    font-weight: 500;
+}
+
+.section-future {
+    text-align: center;
+    vertical-align: middle;
+    padding: 50px;
+    color: #413f40;
+}
+
+/* third header - second (shopping tools) */
+#menu-shopping-tools {
+    display: none;
+}
+
+.third-header-shopping-tools {
+    min-height: 350px;
+}
+
+.section-shopping-tools {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.section-shopping-tools > div {
+    display: inline-block;
+    width: 48%;
+    height: 275px;
+    padding: 80px 0px;
+    vertical-align: top;
+}
+
+
+.left-shopping-tools {
+    text-align: center;
+    font-size: 0;
+    padding: 40px 0;
+    width: 550px;
+}
+
+.left-shopping-tools ul {
+    border-right: 1px solid #d8d8d8;
+}
+
+.left-shopping-tools li {
+    display: inline-block;
+    width: 30%; 
+    vertical-align: top;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+.left-shopping-tools li a {
+    display: block;
+    color: #333;
+}
+
+.left-shopping-tools li a img {
+    display: block;
+    margin-bottom: 15px;
+    width: 24px;
+}
+
+.left-shopping-tools li div {
+    text-align: left;
+}
+
+.right-shopping-tools {
+    width: 550px;
+}
+
+.right-shopping-tools ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 42%;
+    text-align: left;
+    margin-left: 25px;
+}
+
+.right-shopping-tools ul:first-child {
+    width: 47%;
+}
+
+.right-shopping-tools li {
+    margin-top: 13px;
+}
+
+.right-shopping-tools li:first-child {
+    margin-top: 0;
+}
+
+.right-shopping-tools a {
+    position: relative;
+}
+
+.imp-icon {
+    position: absolute;
+    left: -17px;
+}
+
+.link-icon {
+    position: absolute;
+    margin: 1px 0 0 3px;
+}
+
+.section-learn-more {
+    text-align: center;
+    background-color: #f6f3f2;
+    height: 185px;
+    margin-top: 30px;
+}
+
+.section-learn-more > div{
+    text-align: left;
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.learn-section-link {
+    position: absolute;
+    margin-left: -45px;
+    margin-top: -5px;
+}
+
+.learn-section-link > img {
+    width: 30px;
+}
+
+.section-learn-more div p {
+    
+    color: dimgray;
+    margin-top: 20px;
+    margin-bottom: 18px;
+    line-height: 23px;
+}
+
+.blue-btn {
+    border: 1px solid #413F40;
+    background-color: #002c5f;
+    color: #fff;
+
+    padding: 0 12px;
+    font-size: 14px;
+    font-weight: 700;
+    height: auto;
+    cursor: pointer;
+    min-height: 44px;
+}
+
+.white-btn {
+    border: 1px solid #413F40;
+    background-color: #fff;
+    color: #002c5f;
+
+    padding: 0 12px;
+    font-size: 14px;
+    font-weight: 700;
+    height: auto;
+    cursor: pointer;
+    min-height: 44px;
+}
+
+#menu-owners {
+    display: none;
+}
+
+
+
+
+
+/* main */
+
+/* banner */
+.banner {
+    
+    height: 370px;
+}
+
+.banner img {
+    width: 100%;
+}
+
+
+
+/* main  */
+.main {
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-top: 50px;
+}
+
+.main h1 {
+    text-align: center;
+    font-size: 45px;
+}
+
+.main-header {
+    margin-top: 50px;
+    position: sticky;
+    top: 0px;
+    padding-top: 20px;
+    background-color: white;
+
+    z-index: 10;
+    box-shadow: 0 2px 0px rgba(0, 0, 0, .1)
+}
+
+.main-header ul,
+.main-header li {
+    display: inline-block;
+}
+
+.main-header ul {
+    width: 100%;
+    text-align: center;
+}
+.main-header ul li {
+    width: 13%;
+    padding: 0px 10px;
+    border-right: 1px solid black;
+    height: 20px;
+    margin-bottom: 20px;
+}
+
+.main-header ul li:last-child {
+    border-right: 0;
+}
+
+.main-header ul li a {
+    color: #002c5f;
+    font-size: 14px;
+    font-weight: 1000;
+}
+
+.main-header a:link,
+.main-header a:visited {
+    color: #002c5f;
+}
+
+.main-header ul li a:hover {
+    
+}
+.main-header ul li a:active {
+    color: #4A68AD;
+}
+
+
+.content {
+    height: 1000px;
+}
+
+.vehicles-list ul li {
+    height: 460px;
+    background-color: #f8f8f8;
+    margin: 40px 0 40px 0;
+}
+
+.vehicles-list ul li > div {
+    padding: 72px 115px 48px;;
+
+}
+
+.vehicles-list ul li > div > div {
+    display: inline-block;
+    height: 255px;
+    vertical-align: top;
+}
+
+.vehicles-list ul li > div > div:first-child {
+    box-shadow: 0 2.52px 16.8px -8.4px rgba(0, 0, 0, .5);
+    width: 500px;
+    background-color: white;
+}
+
+.vehicles-list ul li > div > div:last-child {
+    margin-left: 84px;
+}
+
+.list-year {
+    margin-bottom: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 150%;
+    border-bottom: 2px solid #007fa8;;
+}
+
+.list-car-name {
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 150%;
+}
+
+.list-property {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+    color: dimgray;
+    margin-bottom: 8px;
+}
+
+.price-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: normal;
+    color: dimgray;
+    margin-bottom: 4px;
+}
+
+.price-value {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: normal;
+}
+
+
+.btn-box {
+    margin-top: 27px;
+    margin-bottom: 25px;
+}
+
+.btn-box button {
+    padding: 20px 30px;
+}
+
+.vehicles-list a {
+    font-size: 14px;
+}
+
+.vehicles-list a:link,
+.vehicles-list a:visited {
+    color: #002c5f;
+}
+
+.vehicles-list .arrow-right {
+    width: 12px;
+    position: absolute;
+    margin: 4px 0 0 3px;
+}
+
+
+
+
+.footer-cookie {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.footer-cookie img {
+    width: 50px;
+}
+
+.footer-chat {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.footer-chat img {
+    width: 60px;
+}
