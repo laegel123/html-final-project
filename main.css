@@ -437,30 +437,30 @@
     height: 1000px;
 }
 
-.vehicles-list ul li {
+.main-list > li {
     height: 460px;
     background-color: #f8f8f8;
     margin: 40px 0 40px 0;
 }
 
-.vehicles-list ul li > div {
+.main-list > li > div {
     padding: 72px 115px 48px;;
 
 }
 
-.vehicles-list ul li > div > div {
+.main-list > li > div > div {
     display: inline-block;
     height: 255px;
     vertical-align: top;
 }
 
-.vehicles-list ul li > div > div:first-child {
+.main-list > li > div > div:first-child {
     box-shadow: 0 2.52px 16.8px -8.4px rgba(0, 0, 0, .5);
     width: 500px;
     background-color: white;
 }
 
-.vehicles-list ul li > div > div:last-child {
+.main-list > li > div > div:last-child {
     margin-left: 84px;
 }
 
@@ -525,7 +525,71 @@
     margin: 4px 0 0 3px;
 }
 
+.option-choice {
+    text-align: center;
+    margin-top: 40px;
+}
 
+.choice-name {
+    display: inline-block;
+    color: rgb(66, 65, 65);
+    font-weight: 580;
+    padding: 0 20px;
+    position: relative;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.baseline {
+    display: block;
+    /* background-color: #007fa8; */
+    background-color: rgb(66, 65, 65);
+    width: 32px;
+    height: 2px;
+    margin: 0 auto;
+    margin-top: 7px;
+}
+
+.option-details {
+
+}
+
+.option-details ul li {
+    display: inline-block;
+    width: 32%;
+    padding-top: 40px;
+    padding-left: 20px;
+}
+
+.option-details ul li span {
+    display: block;
+    font-size: 17px;
+    text-align: center;
+}
+
+.option-details .option-purpose {
+    font-size: 14px;
+    font-weight: 400;
+    color: dimgray;
+}
+
+.option-details .option-price {
+    font-weight: bold;
+    font-size: 30px;
+    
+}
+
+.option-details .day {
+    font-size: 14px;
+    font-weight: 200;
+    color: dimgray;
+    
+}
+
+.option-car {
+    width: 430px;
+    margin-left: -130px;
+}
 
 
 .footer-cookie {
