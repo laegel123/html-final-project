@@ -1,12 +1,3 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'Arial', sans-serif;
-    text-decoration: none;
-    list-style: none;;
-}
-
 /* first top header */
 .top-header {
     border-bottom: 1px solid #d8d8d8;
@@ -14,7 +5,7 @@
     padding: 6px;
 }
 
-.top-header button {
+.top-header a {
     display: inline-block;
     padding: 0px 10px;
     cursor: pointer;
@@ -24,7 +15,7 @@
     padding-right: 20px;
 }
 
-.top-header button:first-child {
+.top-header a:first-child {
     border-right: 1px solid #d8d8d8;
 }
 
@@ -112,6 +103,8 @@
 .third-header {
     background-color: white;   
     border-bottom: 1px solid #d8d8d8;
+    position: absolute;
+    width: 100%;
 }
 
 .third-header-cancel-btn {
@@ -121,6 +114,10 @@
     width: 20px;
     float: right;
     cursor: pointer;
+}
+
+.clearfix {
+    clear: both;
 }
 
 .third-header a:link,
@@ -165,7 +162,6 @@
 
 .arrow-down {
     width: 9px;
-    display: none;
 }
 
 .arrow-right {
@@ -359,8 +355,8 @@
 
 /* banner */
 .banner {
-    
     height: 370px;
+    overflow: hidden;
 }
 
 .banner img {
@@ -433,6 +429,9 @@
     color: #4A68AD;
 }
 
+#elantra, #sonata, #venue, #kona, #tucson, #santa-fe, #santa-cruz, #kona-electric, #ioniq-5, #ioniq-6 {
+    scroll-margin-top: 120px;
+}
 
 .content {
     height: 1000px;
@@ -445,8 +444,7 @@
 }
 
 .main-list > li > div {
-    padding: 72px 115px 48px;;
-
+    padding: 72px 115px 48px;
 }
 
 .main-list > li > div > div {
@@ -634,6 +632,15 @@ footer {
   .footer-column li {
     margin-bottom: 12px;
   }
+
+  .footer-column li:nth-child(1) {
+    order: 2;
+  }
+  
+  .footer-column li:nth-child(2) {
+    order: 1;
+  }
+  
   
   .footer-column a {
     color: #c3cbd6;
@@ -641,6 +648,7 @@ footer {
     font-size: 14px;
     display: inline-flex;
     align-items: center;
+    align-self: flex-start;
   }
   
   .footer-column a:hover {

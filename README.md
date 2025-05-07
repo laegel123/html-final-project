@@ -1,7 +1,13 @@
-# html-final-project
+# HTML Final Project
 
-This project is a web application based on a Hyundai website.
+This project is a web page inspired by the official Hyundai Motors website.  
+It showcases various Hyundai car models, their prices, and dealership information.  
+The design is responsive and includes interactive navigation menus.
 
-## Team Members
-### Juno Baek
-Role: Front-end Developer — Worked on responsive layout, component styling, and page structure implementation.
+## Team Member
+
+### Juno Baek  
+**Role:** Front-End Developer  
+- Implemented the overall page structure  
+- Styled components with CSS  
+- Handled menu interactions and section-based navigation
